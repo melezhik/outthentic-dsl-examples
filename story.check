@@ -1,0 +1,22 @@
+OK
+
+generator:    \
+[ 'OK1' ] 
+
+generator:    <<CODE
+[ 'OK2' ] 
+CODE
+
+
+generator:   <<PERL
+!perl
+print 'OK3';
+PERL
+
+generator:    <<CODE
+!ruby
+  puts 'OK4' 
+CODE
+
+
+
